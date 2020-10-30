@@ -30,4 +30,3 @@ it('Login with valid creds', () => {
     cy.get('[class="button secondary radius"]').click();
     cy.get('[id="flash"]').contains('You logged out of the secure area!').should('exist');
   });
-  
